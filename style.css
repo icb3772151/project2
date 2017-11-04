@@ -1,0 +1,118 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+.body{
+  
+
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-family: 'Roboto', archivo-black;
+  background-color: white;
+}
+
+.acams {
+  position: absolute;
+  top: 20%;
+  left: 80px;
+  z-index: 1;
+}
+
+
+
+
+.Navi{
+  font-size: 50px;
+  color: dodgerblue;
+  font-family: 'Arial', courier-new;
+  margin-bottom: 5px;
+  margin-left: 50px;
+}
+a.Navi:hover{color:dodgerblue;}
+a.Navi:link{color:dodgerblue;}
+a.Navi:active{color:dodgerblue;}
+a.Navi:visited{color:mediumvioletred;}
+
+.nav_top_margin{
+  margin-top: 18px;
+}
+.nav_pad{
+  margin-top: 50px;
+  z-index: 0;
+  position: absolute;
+}
+
+.nav_top_margin1{
+  margin-top: 10px;
+}
+
+.xtarget{ 
+  padding-top: 1px; 
+}
+.aboutpic{
+  max-height: 230px;
+  max-width: 230px;
+}
+.port_pic{
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.profileSize{
+  padding-top: 4px;
+  
+  height: 280px; 
+}
+.profilebg{
+ 
+  background-color: white;
+  top: 5px;
+  min-height: 325px;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+.portfoliobg{
+ 
+  background-color: white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+
+.PortfolioSize{
+  padding-top: 10px;
+  height: 300px;
+  width: 300px;
+ 
+}
+.icon_size{
+  height: 50px;
+  width: 50px;
+}
+.Contactbg{
+  background-color: darkcyan;
+  color: white;
+}
+.temppopover{
+  display: none;
+}
+.temppopover:target{
+  display: block;
+  background-color: dodgerblue;
+}
+
+
+
+.acams{
+
+  animation: float 4s ease-out infinite;
+}
+
+@keyframes float {
+    5% {
+    transform: translate(0, 10px);
+  }
